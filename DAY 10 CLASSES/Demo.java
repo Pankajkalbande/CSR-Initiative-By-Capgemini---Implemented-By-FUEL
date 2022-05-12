@@ -1,4 +1,4 @@
-// Calling Constructor.
+
 class A{
         int i;
         A(int x){

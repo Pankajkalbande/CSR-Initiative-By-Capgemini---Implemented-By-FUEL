@@ -2,11 +2,11 @@
 inheritance, in this lab you will create two new classes, Teacher and CollegeStudent. 
 
 A Teacher will be like Person but will have additional properties such as salary (the amount the teacher
-earns) and subject (e.g. “Com puter Science”, “Chemistry”, “English”, “Other”). 
+earns) and subject (e.g. ï¿½Com puter Scienceï¿½, ï¿½Chemistryï¿½, ï¿½Englishï¿½, ï¿½Otherï¿½). 
 
 
 The CollegeStudent class will extend the Student class by adding a year (current level in college) and
-major (e.g. “Electrical Engineering”, “Communications”, “Undeclared”)*/
+major (e.g. ï¿½Electrical Engineeringï¿½, ï¿½Communicationsï¿½, ï¿½Undeclaredï¿½)*/
 
 
 class Teacher{

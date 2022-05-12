@@ -7,48 +7,37 @@ within the row (such as 12F). Make two examples of tickets.
 
 import java.util.*;
 
-class airlineTicket
-{
+class airlineTicket {
 
-String departure,city,flightno,seatassignment;
+    String departure, city, flightno, seatassignment;
 
-airlineTicket(String Dep ,String City , String Flightno ,String seatassign){
+    airlineTicket(String Dep, String City, String Flightno, String seatassign) {
 
+        departure = Dep;
+        city = City;
+        flightno = Flightno;
+        seatassignment = seatassign;
 
-departure = Dep ;
-city = City ;
-flightno = Flightno;
-seatassignment = seatassign ;
+    }
 
-}
+    void show() {
 
- void show(){
- 
-System.out.println("-------- India Airline Welocme !  ------- ");
-System.out.println("Departure : "+""+departure);
-System.out.println("arrival cities : "+""+city);
-System.out.println("flight no : "+""+flightno);
-System.out.println("SeatAssignment :"+""+seatassignment); 
- 
- 
- }
+        System.out.println("-------- India Airline Welocme !  ------- ");
+        System.out.println("Departure : " + "" + departure);
+        System.out.println("arrival cities : " + "" + city);
+        System.out.println("flight no : " + "" + flightno);
+        System.out.println("SeatAssignment :" + "" + seatassignment);
 
-
-
-
+    }
 
 }
-
 
 public class Exercise4 {
-public static void main(String args[])
-{
+    public static void main(String args[]) {
 
+        airlineTicket ob1 = new airlineTicket("Aurangabad ", "Mumbai", "Airline20221960", "F12");
 
-airlineTicket ob1 = new airlineTicket("Aurangabad ","Mumbai","Airline20221960","F12");
+        ob1.show();
 
-ob1.show();
-
-
-}
+    }
 }

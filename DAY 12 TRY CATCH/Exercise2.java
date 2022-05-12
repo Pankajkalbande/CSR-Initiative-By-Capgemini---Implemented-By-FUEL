@@ -18,36 +18,29 @@ import java.util.*;
 
 public class Exercise2 {
 
-public static void main(String[] args)
-{
+    public static void main(String[] args) {
 
-Scanner sc = new Scanner(System.in);
-int size = sc.nextInt();
-int[] arr = new int[size];
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int[] arr = new int[size];
 
-for(int i=0;i<size;i++)
-{
+        for (int i = 0; i < size; i++) {
 
-arr[i] = sc.nextInt();
+            arr[i] = sc.nextInt();
 
-}
-System.out.println("Enter the index number to check array value : ");
+        }
+        System.out.println("Enter the index number to check array value : ");
 
+        try {
 
-try 
-{
+            int check = sc.nextInt();
+            System.out.println(arr[check]);
 
-int check = sc.nextInt();
-System.out.println(arr[check]);
+        } catch (ArrayIndexOutOfBoundsException e) {
 
+            System.out.println(e);
 
-}catch(ArrayIndexOutOfBoundsException e)
-{
+        }
 
-System.out.println(e);
-
-}
-
-
-}
+    }
 }
