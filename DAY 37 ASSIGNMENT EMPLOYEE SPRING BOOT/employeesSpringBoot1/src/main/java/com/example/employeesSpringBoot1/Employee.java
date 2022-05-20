@@ -1,4 +1,4 @@
-package com.example.EmployeesSpringBoot;
+package com.example.employeesSpringBoot1;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

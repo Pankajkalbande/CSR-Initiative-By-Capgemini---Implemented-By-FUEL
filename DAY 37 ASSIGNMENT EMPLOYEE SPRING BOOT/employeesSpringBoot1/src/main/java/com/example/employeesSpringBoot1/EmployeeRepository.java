@@ -1,4 +1,4 @@
-package com.example.EmployeesSpringBoot;
+package com.example.employeesSpringBoot1;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
