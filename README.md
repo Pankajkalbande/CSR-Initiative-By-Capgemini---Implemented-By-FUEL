@@ -1,4 +1,4 @@
-JAVA - TRAINING
+JAVA - Training
 CSR Initiative By Capgemini 
 
   Implemented By
